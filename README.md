@@ -63,8 +63,11 @@ Auto Battle Arena — это self-gaming консольная игра на Pyth
 
 ## ▶️ Запуск проекта
 
-Из корня проекта:
+Модули импортируются как пакет `auto_battle`, поэтому репозиторий клонируется в папку с этим именем, а запуск идёт из родительской папки:
 
 ```bash
+git clone https://github.com/Dr0wsyC0der/Auto-Battle-Arena.git auto_battle
 python -m auto_battle.main
+```
 
+Нужен Python 3.10+, внешних зависимостей нет.
